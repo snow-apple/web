@@ -1,0 +1,48 @@
+/*
+  Shwetlana Jha
+  IntroCS pd07 sec11
+  HW05 -- Stuylin'
+2021-02-14
+*/
+
+/*
+structure of a CSS ruleset:
+SELECTOR { 0 or more DECLARATIONS }
+where each declaration is of the form
+PROPERTY : VALUE;
+ */
+
+/* this will style all h1 elements with color dark green */
+h1 {
+    color: rgb(21, 66, 8)
+}
+
+h1 {
+    text-align: center
+}
+
+/* this will style all h2 elements with color yellow */
+h2 {
+    color: rgb(217, 255, 0)
+}
+
+/* this will make the page background green */
+body {
+    background-color: rgb(8, 173, 44); /* bc dark mode 4 teh youngs */
+}
+
+ul{
+    color: rgb(217, 255, 0)
+}
+
+p {
+    color: white 
+}
+
+p {
+    font-style: italic
+}
+
+p{
+    border: solid green
+}
